@@ -1,5 +1,7 @@
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
+using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ProjetoBRQ.Domain.Entities;
@@ -12,9 +14,10 @@ namespace ProjetoBRQ.Api.Controllers
     public class PessoaController : Controller
     {
         public readonly IRepo _repo;
-
-        public PessoaController(IRepo repo)
+        private readonly IMapper _mapper;
+        public PessoaController(IRepo repo, IMapper mapper)
         {
+            _mapper = mapper;
             _repo = repo;
         }
 
@@ -24,8 +27,9 @@ namespace ProjetoBRQ.Api.Controllers
             try
             {
                 var pessoas = await _repo.GetAllPessoas();
+                var result = _mapper.Map<IEnumerable<PessoaDto>>(pessoas);
 
-                return Ok(pessoas);
+                return Ok(result);
             }
             catch (Exception)
             {
@@ -41,7 +45,8 @@ namespace ProjetoBRQ.Api.Controllers
             try
             {
                 var pessoa = await _repo.GetPessoaById(id);
-                return Ok(pessoa);
+                var result = _mapper.Map<PessoaDto>(pessoa);
+                return Ok(result);
             }
             catch (System.Exception)
             {

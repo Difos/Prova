@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ProjetoBRQ.Domain/1.0.0": {
+        "runtime": {
+          "ProjetoBRQ.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProjetoBRQ.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

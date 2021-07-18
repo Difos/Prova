@@ -1,0 +1,12 @@
+C:\Users\Wesley\Documents\Prova\ProjetoBRQ.Domain\bin\Debug\net5.0\ProjetoBRQ.Domain.deps.json
+C:\Users\Wesley\Documents\Prova\ProjetoBRQ.Domain\bin\Debug\net5.0\ProjetoBRQ.Domain.dll
+C:\Users\Wesley\Documents\Prova\ProjetoBRQ.Domain\bin\Debug\net5.0\ref\ProjetoBRQ.Domain.dll
+C:\Users\Wesley\Documents\Prova\ProjetoBRQ.Domain\bin\Debug\net5.0\ProjetoBRQ.Domain.pdb
+C:\Users\Wesley\Documents\Prova\ProjetoBRQ.Domain\obj\Debug\net5.0\ProjetoBRQ.Domain.csprojAssemblyReference.cache
+C:\Users\Wesley\Documents\Prova\ProjetoBRQ.Domain\obj\Debug\net5.0\ProjetoBRQ.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wesley\Documents\Prova\ProjetoBRQ.Domain\obj\Debug\net5.0\ProjetoBRQ.Domain.AssemblyInfoInputs.cache
+C:\Users\Wesley\Documents\Prova\ProjetoBRQ.Domain\obj\Debug\net5.0\ProjetoBRQ.Domain.AssemblyInfo.cs
+C:\Users\Wesley\Documents\Prova\ProjetoBRQ.Domain\obj\Debug\net5.0\ProjetoBRQ.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Wesley\Documents\Prova\ProjetoBRQ.Domain\obj\Debug\net5.0\ProjetoBRQ.Domain.dll
+C:\Users\Wesley\Documents\Prova\ProjetoBRQ.Domain\obj\Debug\net5.0\ref\ProjetoBRQ.Domain.dll
+C:\Users\Wesley\Documents\Prova\ProjetoBRQ.Domain\obj\Debug\net5.0\ProjetoBRQ.Domain.pdb
